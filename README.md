@@ -29,5 +29,34 @@ values of CDR, DDLS and ISNT were computed for diagnosis.
 
 In order to speed up the process, autocropping was applied using the segmented disc from DC-Gnet. 
 
-![Autocropping](Autoropping.png)
+![Autocrop](Autocrop.png)
 
+The augmentation techniques used are shown in the figure below
+
+![Augmentation](Augmentation.png)
+
+The methodology of the project is shown in the figure below:
+
+![Methodology](Method.png)
+
+## Model Architecture
+
+The figures below show our model architecture. Our model is the modified version of G-Net and is able to perform better than state of the art architectures like U-Net and Deeplab.
+
+![Model](DC-Gnet.png)
+
+The block diagram of our model is shown below:
+![Block Diagram](Block.png)
+
+## Results
+The model is able to successfully segment the optic disc and cup as shown in the figure below:
+![Segmentation](DC-GNET.png)
+
+The segmented optic disc and cup were then used to trace the boundary and calculate the CDR, DDLS and ISNT values.
+![Final Result](Boundary.png)
+
+## References
+1. DC-Gnet - (https://link.springer.com/article/10.1007/s00138-020-01085-2)
+2. U-net - (http://arxiv.org/abs/1505.04597)
+3. G-net - (https://link.springer.com/article/10.1007/s00138-020-01085-2)
+4. Deeplab - https://arxiv.org/pdf/2001.01815
