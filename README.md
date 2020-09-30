@@ -29,5 +29,5 @@ values of CDR, DDLS and ISNT were computed for diagnosis.
 
 In order to speed up the process, autocropping was applied using the segmented disc from DC-Gnet. 
 
-![Autocropping](Automated cropping.png)
+![Autocropping](Autoropping.png)
 
